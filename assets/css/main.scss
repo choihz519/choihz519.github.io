@@ -3,33 +3,71 @@
 
 @charset "utf-8";
 
-$primary-color: #aed3fc;
-$link-color: #aed3fc;
+$primary-color: #3d80cc;
+$link-color: #175eb0;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-// 모든 텍스트 줄바꿈 방지
-.archive__item-excerpt p,
+// intro 섹션 스타일
 .intro p {
+  font-size: 1.1em;
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  font-size: 0.95em;
 }
 
-// Feature row 제목도 줄바꿈 방지
-.feature__item .archive__item-title {
-  white-space: nowrap;
+// Feature row 스타일
+.feature__item {
+  .archive__item-title {
+    font-size: 1.3em;
+    color: $primary-color;
+    white-space: nowrap;
+  }
+
+  .archive__item-excerpt {
+    font-size: 0.95em;
+    white-space: nowrap;
+  }
+}
+
+// Recent Posts 제목 스타일 (검정색, 작게)
+.archive__item-title a {
+  color: #333 !important;
   font-size: 0.9em;
+  font-weight: 500;
+
+  &:hover {
+    color: $primary-color !important;
+  }
 }
 
-// 반응형: 작은 화면에서는 줄바꿈 허용
-@media (max-width: 768px) {
-  .archive__item-excerpt p,
-  .intro p,
-  .feature__item .archive__item-excerpt,
-  .feature__item .archive__item-title {
-    white-space: normal;
+// 게시글 본문 글꼴 크기
+.page__content {
+  font-size: 0.9em;
+  line-height: 1.7;
+
+  h2 {
+    font-size: 1.5em;
+    margin-top: 2em;
+  }
+
+  h3 {
+    font-size: 1.2em;
+    margin-top: 1.5em;
+  }
+
+  p {
+    margin-bottom: 1em;
+  }
+}
+
+// Recent Posts 섹션 전체 스타일
+.archive__item {
+  .archive__item-title {
+    margin-top: 0.5em;
+    font-size: 1em;
+  }
+
+  .archive__item-excerpt {
+    font-size: 0.85em;
   }
 }

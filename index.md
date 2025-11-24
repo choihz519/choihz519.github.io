@@ -6,7 +6,7 @@ header:
   overlay_filter: "0.3"
 excerpt: "AI를 더 쉽고 안전하게, 모두를 위한 AI 서비스 가이드"
 intro: 
-  - excerpt: '최신 AI 서비스 사례와 트렌드, 정책을 정리합니다.'
+  - excerpt: '최신 AI 서비스와 기술 및 정책을 공유합니다.'
 feature_row:
   - title: "🤖 AI 서비스 사례"
     excerpt: "최신 AI 서비스 소개"
