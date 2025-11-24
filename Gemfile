@@ -1,7 +1,10 @@
 source "https://rubygems.org"
 
-gem "github-pages", group: :jekyll_plugins
-gem "webrick"
+# GitHub Pages 공식 gem
+gem "github-pages", "~> 232", group: :jekyll_plugins
+
+# Windows 및 JRuby 환경에서 필요
+gem "webrick", "~> 1.8"
 
 group :jekyll_plugins do
   gem "jekyll-feed"
