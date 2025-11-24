@@ -1,5 +1,5 @@
 title: "AI Service Digest"
-subtitle: "당신과 가까운 AI 서비스 리포지터리"
+subtitle: "당신과 가장 가까운 AI 서비스 리포지터리"
 name: "Hyeji"
 description: "누구나 AI를 더 쉽게, 더 안전하게 활용할 수 있도록 돕는 블로그입니다."
 locale: "ko-KR"
@@ -60,3 +60,28 @@ tag_archive:
 
 include:
   - _pages
+
+footer:
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:choihz519@gmail.com"
+
+# 저작권 표시
+atom_feed:
+  hide: false
+
+  # 사이드바 설정
+  author_profile: true
+  read_time: true
+  comments: false
+  share: true
+  related: true
+
+  # 검색 기능
+  search: true
+  search_full_content: true
+  search_provider: lunr
+
+  # 테마 스킨 선택 (minimal-mistakes 기본 제공)
+  minimal_mistakes_skin: "mint"
