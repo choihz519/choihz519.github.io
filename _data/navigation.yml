@@ -1,0 +1,11 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "AI 서비스 사례"
+    url: /categories/#ai-서비스-사례
+  - title: "AI 기술 트렌드"
+    url: /categories/#기술-트렌드
+  - title: "AI 관련 정책"
+    url: /categories/#AI-정책
+  - title: "About"
+    url: /about/
