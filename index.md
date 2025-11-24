@@ -4,7 +4,7 @@ author_profile: false
 header:
   overlay_color: "#aed3fc"
   overlay_filter: "0.3"
-excerpt: "AI를 더 쉽고 안전하게, 모두를 위한 AI 서비스 리포지터리"
+excerpt: "AI를 더 쉽고 안전하게, 모두를 위한 AI 서비스•기술 가이드"
 ---
 
 <style>
