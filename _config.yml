@@ -52,6 +52,7 @@ comments:
   utterances:
     theme: "github-light"
     issue_term: "pathname"
+    repo: "choihz519/choihz519.github.io"
 
 defaults:
   # _posts
