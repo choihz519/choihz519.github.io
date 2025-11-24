@@ -43,13 +43,15 @@ collections:
 include:
   - _pages
 
-# 댓글 설정 (Utterances)
+# 저장소 설정 추가
+repository: "choihz519/choihz519.github.io"
+
+# 댓글 설정
 comments:
   provider: "utterances"
   utterances:
     theme: "github-light"
     issue_term: "pathname"
-    repo: "choihz519/choihz519.github.io"
 
 defaults:
   # _posts
