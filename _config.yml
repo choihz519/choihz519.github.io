@@ -1,12 +1,13 @@
 title: "AI Service Digest"
-subtitle: "당신과 가장 가까운 AI 서비스 리포지터리"
+subtitle: "당신과 가까운 AI 서비스 리포지터리"
 name: "Hyeji"
 description: "누구나 AI를 더 쉽게, 더 안전하게 활용할 수 있도록 돕는 블로그입니다."
 locale: "ko-KR"
 
+# 중요: theme 줄 없이 remote_theme만 사용
 remote_theme: "mmistakes/minimal-mistakes"
 
-url: "https://yourusername.github.io"
+url: "https://github.com/choihz519/choihz519.github.io"  # 실제 URL로 변경
 baseurl: ""
 
 markdown: kramdown
@@ -17,8 +18,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-include-cache
-  - jekyll-gist
-  - jekyll-seo-tag
   - jekyll-remote-theme
 
 author:
