@@ -1,1 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-11-24T15:22:23+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">AI Service Digest</title><subtitle>누구나 AI를 더 쉽게, 더 안전하게 활용할 수 있도록 돕는 블로그입니다.</subtitle><author><name>Hyeji Choi</name></author></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-11-24T20:48:12+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">AI Service Digest</title><subtitle>누구나 AI를 더 쉽게, 더 안전하게 활용할 수 있도록 돕는 블로그입니다.</subtitle><author><name>Hyeji Choi</name></author><entry><title type="html">AI Service Digest에 오신 것을 환영합니다</title><link href="http://localhost:4000/ai-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%82%AC%EB%A1%80/welcome-to-ai-service-digest/" rel="alternate" type="text/html" title="AI Service Digest에 오신 것을 환영합니다" /><published>2025-11-24T00:00:00+09:00</published><updated>2025-11-24T00:00:00+09:00</updated><id>http://localhost:4000/ai-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%82%AC%EB%A1%80/welcome-to-ai-service-digest</id><content type="html" xml:base="http://localhost:4000/ai-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%82%AC%EB%A1%80/welcome-to-ai-service-digest/"><![CDATA[<p>안녕하세요! AI Service Digest에 오신 것을 환영합니다.</p>
+
+<h2 id="블로그-소개">블로그 소개</h2>
+
+<p>이 블로그는 누구나 AI 기술을 쉽고 안전하게 활용할 수 있도록 돕기 위해 만들어졌습니다.</p>
+
+<p>또한 기획자의 시선에서 AI 서비스를 리뷰합니다.</p>
+
+<h3 id="주요-콘텐츠">주요 콘텐츠</h3>
+
+<ol>
+  <li><strong>AI 서비스 사례</strong>: 실생활에서 활용되는 다양한 AI 서비스를 소개합니다</li>
+  <li><strong>AI 기술 트렌드</strong>: 최신 AI 기술 동향과 발전 방향을 정리합니다</li>
+  <li><strong>AI 관련 정책</strong>: 국내외 AI 정책과 규제 동향을 알아봅니다</li>
+</ol>
+
+<h2 id="앞으로의-계획">앞으로의 계획</h2>
+
+<p>정기적으로 유용한 AI 관련 정보를 공유하겠습니다. 많은 관심 부탁드립니다!</p>]]></content><author><name>Hyeji Choi</name></author><category term="AI-서비스-사례" /><category term="소개" /><category term="AI" /><category term="블로그" /><summary type="html"><![CDATA[안녕하세요! AI Service Digest에 오신 것을 환영합니다.]]></summary></entry><entry><title type="html">2025 멀티모달 AI 트렌드</title><link href="http://localhost:4000/ai-%EA%B8%B0%EC%88%A0-%ED%8A%B8%EB%A0%8C%EB%93%9C/multimodal-ai-trend/" rel="alternate" type="text/html" title="2025 멀티모달 AI 트렌드" /><published>2025-11-24T00:00:00+09:00</published><updated>2025-11-24T00:00:00+09:00</updated><id>http://localhost:4000/ai-%EA%B8%B0%EC%88%A0-%ED%8A%B8%EB%A0%8C%EB%93%9C/multimodal-ai-trend</id><content type="html" xml:base="http://localhost:4000/ai-%EA%B8%B0%EC%88%A0-%ED%8A%B8%EB%A0%8C%EB%93%9C/multimodal-ai-trend/"><![CDATA[<p>멀티모달 AI는 2024년 가장 주목받는 AI 기술 트렌드입니다.</p>
+
+<h2 id="멀티모달-ai란">멀티모달 AI란?</h2>
+
+<p>멀티모달 AI는 텍스트, 이미지, 음성 등 여러 형태의 데이터를 동시에 처리할 수 있는 인공지능을 말합니다.</p>
+
+<h2 id="주요-서비스">주요 서비스</h2>
+
+<h3 id="gpt-4-vision">GPT-4 Vision</h3>
+<p>OpenAI의 GPT-4는 이미지를 이해하고 분석할 수 있습니다.</p>
+
+<h3 id="google-gemini">Google Gemini</h3>
+<p>구글의 Gemini는 텍스트, 이미지, 오디오, 비디오를 모두 처리할 수 있습니다.</p>
+
+<h2 id="활용-사례">활용 사례</h2>
+
+<ol>
+  <li>이미지 기반 질의응답</li>
+  <li>문서 분석 자동화</li>
+  <li>접근성 향상 (시각장애인 지원)</li>
+</ol>
+
+<h2 id="전망">전망</h2>
+
+<p>멀티모달 AI는 더욱 다양한 분야에서 활용될 것으로 예상됩니다.</p>]]></content><author><name>Hyeji Choi</name></author><category term="AI-기술-트렌드" /><category term="멀티모달" /><category term="GPT4" /><category term="Gemini" /><summary type="html"><![CDATA[멀티모달 AI는 2024년 가장 주목받는 AI 기술 트렌드입니다.]]></summary></entry></feed>

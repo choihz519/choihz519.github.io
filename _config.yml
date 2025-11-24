@@ -20,6 +20,14 @@ plugins:
   - jekyll-include-cache
   - jekyll-remote-theme
 
+# 댓글 설정 (Utterances)
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-light"
+    issue_term: "pathname"
+    repo: "choihz519/choihz519.github.io"
+
 author:
   name: "Hyeji Choi"
   avatar: "/assets/images/profile.png"
@@ -43,7 +51,6 @@ collections:
 include:
   - _pages
 
-# 기본값 설정
 defaults:
   # _posts
   - scope:
@@ -51,11 +58,14 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
-      read_time: true
-      comments: false
+      author_profile: false
+      sidebar:
+        nav: "main"
+      read_time: false
+      show_date: true
+      comments: true
       share: true
-      related: true
+      related: false
       toc: true
       toc_sticky: true
   # _pages
@@ -64,7 +74,9 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
+      sidebar:
+        nav: "main"
 
 # 카테고리 및 태그 아카이브
 category_archive:
