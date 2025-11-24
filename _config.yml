@@ -3,7 +3,7 @@ subtitle: "당신과 가장 가까운 AI 서비스 리포지터리"
 name: "Hyeji"
 description: "누구나 AI를 더 쉽게, 더 안전하게 활용할 수 있도록 돕는 블로그입니다."
 locale: "ko-KR"
-remote_theme: "mmistakes/minimal-mistakes"
+theme: minimal-mistakes-jekyll
 author:
   name: "Hyeji Choi"
   avatar: "/assets/images/profile.png"
