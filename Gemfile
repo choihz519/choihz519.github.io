@@ -4,9 +4,9 @@ gem "github-pages", group: :jekyll_plugins
 gem "webrick"
 
 group :jekyll_plugins do
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-include-cache
-  - jekyll-remote-theme
+  gem "jekyll-feed"
+  gem "jekyll-sitemap"
+  gem "jekyll-paginate"
+  gem "jekyll-include-cache"
+  gem "jekyll-remote-theme"
 end

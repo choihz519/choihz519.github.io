@@ -4,18 +4,14 @@ name: "Hyeji"
 description: "누구나 AI를 더 쉽게, 더 안전하게 활용할 수 있도록 돕는 블로그입니다."
 locale: "ko-KR"
 
-# 테마 설정 (theme 대신 remote_theme 사용)
 remote_theme: "mmistakes/minimal-mistakes"
 
-# GitHub Pages 필수 설정
-url: "https://github.com/choihz519/choihz519.github.io"  # 실제 URL로 변경
+url: "https://yourusername.github.io"
 baseurl: ""
 
-# 빌드 설정
 markdown: kramdown
 permalink: /:categories/:title/
 
-# 플러그인
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -25,11 +21,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-remote-theme
 
-# 기본 설정
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-# Author 정보
 author:
   name: "Hyeji Choi"
   avatar: "/assets/images/profile.png"
@@ -40,13 +31,10 @@ author:
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:choihz519@gmail.com"
 
-# 페이지네이션
 paginate: 5
 paginate_path: "/page:num/"
 
-# 기본값 설정
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -57,7 +45,6 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
   - scope:
       path: ""
       type: pages
@@ -65,7 +52,6 @@ defaults:
       layout: single
       author_profile: true
 
-# 카테고리 및 태그 아카이브
 category_archive:
   type: liquid
   path: /categories/
@@ -73,34 +59,5 @@ tag_archive:
   type: liquid
   path: /tags/
 
-# 출력에서 제외할 파일
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - Capfile
-  - CHANGELOG
-  - config
-  - log
-  - Rakefile
-  - README
-  - tmp
-
-# 포함할 파일
 include:
-  - .htaccess
   - _pages
-
-# 컬렉션
-collections:
-  pages:
-    output: true
-    permalink: /:path/
