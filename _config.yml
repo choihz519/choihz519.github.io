@@ -49,7 +49,7 @@ comments:
   provider: "giscus"
   giscus:
     repo_id: "R_kgDOQbtNPw"  # giscus.app에서 생성된 값
-    category_name: "Comments"
+    category_name: "Announcements"
     category_id: "DIC_kwDOQbtNP84Cy1pM"  # giscus.app에서 생성된 값
     discussion_term: "pathname"
     reactions_enabled: "1"
