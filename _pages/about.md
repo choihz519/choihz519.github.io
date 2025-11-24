@@ -1,8 +1,9 @@
 ---
-layout: single
 title: "About"
+layout: single
 permalink: /about/
 author_profile: true
+sidebar: false
 ---
 
 안녕하세요👋

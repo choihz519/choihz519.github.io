@@ -4,7 +4,7 @@ author_profile: false
 header:
   overlay_color: "#aed3fc"
   overlay_filter: "0.3"
-excerpt: "AI를 더 쉽고 안전하게, 모두를 위한 AI 서비스 가이드"
+excerpt: "AI를 더 쉽고 안전하게, 모두를 위한 AI 서비스 리포지터리"
 ---
 
 <style>
@@ -207,7 +207,7 @@ excerpt: "AI를 더 쉽고 안전하게, 모두를 위한 AI 서비스 가이드
 </style>
 
 <div class="category-intro">
-  최신 AI 서비스와 기술 및 정책을 공유합니다.
+  최신 AI 서비스 및 기술과 AI 관련 정책을 공유합니다.
 </div>
 
 <div class="category-cards">

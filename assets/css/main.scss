@@ -108,12 +108,13 @@ $link-color: #175eb0;
   margin-top: 3em;
   padding-top: 2em;
   border-top: 2px solid #e8e8e8;
-}
 
-.page__comments-title {
-  font-size: 1.5em;
-  margin-bottom: 1em;
-  color: #333;
+  h4.page__comments-title {
+    font-size: 1.3em;
+    margin-bottom: 1.5em;
+    color: #333;
+    font-weight: 600;
+  }
 }
 
 .utterances {
