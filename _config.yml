@@ -3,11 +3,13 @@ subtitle: "당신과 가장 가까운 AI 서비스 리포지터리"
 name: "Hyeji"
 description: "누구나 AI를 더 쉽게, 더 안전하게 활용할 수 있도록 돕는 블로그입니다."
 locale: "ko-KR"
-theme: "minimal-mistakes-jekyll"
+
+# 테마 설정 (theme 대신 remote_theme 사용)
+remote_theme: "mmistakes/minimal-mistakes"
 
 # GitHub Pages 필수 설정
-url: "https://yourusername.github.io"  # 실제 GitHub Pages URL로 변경
-baseurl: ""  # 저장소명이 username.github.io가 아니면 "/repository-name"
+url: "https://github.com/choihz519/choihz519.github.io"  # 실제 URL로 변경
+baseurl: ""
 
 # 빌드 설정
 markdown: kramdown
@@ -21,6 +23,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-gist
   - jekyll-seo-tag
+  - jekyll-remote-theme
 
 # 기본 설정
 encoding: "utf-8"
