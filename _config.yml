@@ -43,16 +43,17 @@ collections:
 include:
   - _pages
 
-# 저장소 설정 추가
 repository: "choihz519/choihz519.github.io"
 
-# 댓글 설정
 comments:
-  provider: "utterances"
-  utterances:
-    theme: "github-light"
-    issue_term: "pathname"
-    repo: "choihz519/choihz519.github.io"
+  provider: "giscus"
+  giscus:
+    repo_id: "R_kgDOQbtNPw"  # giscus.app에서 생성된 값
+    category_name: "Comments"
+    category_id: "DIC_kwDOQbtNP84Cy1pM"  # giscus.app에서 생성된 값
+    discussion_term: "pathname"
+    reactions_enabled: "1"
+    theme: "light"
 
 defaults:
   # _posts
